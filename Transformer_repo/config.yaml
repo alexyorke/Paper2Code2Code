@@ -1,0 +1,8 @@
+## config.yaml
+training:
+  learning_rate: "..."  ## Learning rate not specified in paper; set as needed.
+  batch_size: "..."     ## Batch size not specified in paper; set as needed.
+  epochs: "..."         ## Number of epochs not specified in paper; set as needed.
+evaluation:
+  n_way_sampling: 8
+  evaluation_model: "o3-mini-high"
